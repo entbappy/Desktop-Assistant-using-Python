@@ -30,3 +30,14 @@ conda activate assistant1
 pip install -r requirements.txt
 
 ```
+
+
+## Required Github Commands
+
+```bash
+git add .
+
+git commit -m "message"
+
+git push origin main
+```
