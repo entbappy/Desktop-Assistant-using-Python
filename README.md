@@ -5,7 +5,7 @@
 1. Create a new virtual environment
 
 ```bash
-conda create -n assistant1 python=3.8
+conda create -n assistant python=3.10
 
 ```
 
@@ -19,7 +19,7 @@ conda env list
 3. Activate the virtual environment
 
 ```bash
-conda activate assistant1 
+conda activate assistant 
 
 ```
 
@@ -49,5 +49,3 @@ git push origin main
 ```
 
 
-
-AIzaSyAfMop9yggqmw6QKDrvMpGgfNiyhABMZLw
