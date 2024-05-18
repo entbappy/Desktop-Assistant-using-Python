@@ -31,6 +31,12 @@ pip install -r requirements.txt
 
 ```
 
+```bash
+streamlit run app.py
+
+```
+
+
 
 ## Required Github Commands
 
@@ -41,3 +47,7 @@ git commit -m "message"
 
 git push origin main
 ```
+
+
+
+AIzaSyAfMop9yggqmw6QKDrvMpGgfNiyhABMZLw
