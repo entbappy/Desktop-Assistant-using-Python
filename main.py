@@ -49,7 +49,34 @@ def takeCommand():
 
 
 
-text = takeCommand()
-speak(text)
+if __name__ == "__main__":
+    
+    query = takeCommand().lower()
 
-print("ok")
+    if "wikipedia" in query:
+        speak("Searching wikipedia")
+        query = query.replace('wikipedia', "")
+        results = wikipedia.summary(query, sentences = 2)
+        speak("According to wikipedia")
+        print(results)
+        speak(results)
+
+    
+    elif "youtube" in query:
+        speak("Opening YouTube")
+        webbrowser.open("youtube.com")
+
+    
+    elif "google" in query:
+        speak("Opening google")
+        webbrowser.open("google.com")
+
+
+    elif "github" in query:
+        speak("Opening github")
+        webbrowser.open("github.com")
+
+
+
+
+
